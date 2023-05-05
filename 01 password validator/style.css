@@ -1,0 +1,26 @@
+ label {
+        display: block;
+        margin-bottom: 10px;
+      }
+      input[type="password"] {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      button[type="submit"] {
+        padding: 5px 10px;
+        background-color: #008CBA;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .message {
+        margin-top: 10px;
+      }
+      .success {
+        color: green;
+      }
+      .error {
+        color: red;
+      }

@@ -1,0 +1,19 @@
+#progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  background-color: #ccc;
+  width: 0%;
+  transition: width 0.2s ease-in-out;
+}
+
+#content {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}

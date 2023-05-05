@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+    <style>
+        #color-mixed {
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <label for="color1">Color 1:</label>
+        <input type="text" id="color1" name="color1"><br><br>
+        <label for="color2">Color 2:</label>
+        <input type="text" id="color2" name="color2"><br><br>
+        <button type="button" onclick="mixColors()">Mix Colors</button><br><br>
+        <div id="color-mixed"></div>
+    </form>
+</body>
+<script src="./script.js"></script>
+
+</html>
